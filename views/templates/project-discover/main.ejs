@@ -1,0 +1,115 @@
+<div style="background-image: url(https://i.postimg.cc/c42QBCMX/Okay.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 150px;
+text-align: start;
+padding: 30px;">
+    <div style="display: flex;
+    align-items: center;">
+        <div>
+            <p style="font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        margin-right: 20px;">Addison Daniels</p>
+            <p style="font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.01em;
+        color: #FAFAFA;">Cloud Engineer</p>
+        </div>
+        <div>
+            <img src="https://i.postimg.cc/MTMQyrjp/cloud-eng.png" alt="Addison" loading="lazy"
+                style="margin-top: 15px;" />
+        </div>
+    </div>
+</div>
+<div style="background-color: #E5E5E5;
+padding: 0 20px;
+margin-top: -20px;">
+    <div style="background-color: #fff; padding: 20px 0;">
+        <div style="text-align: center;">
+            <img src="https://i.postimg.cc/9QYK6dnx/techchak-01-2.png" style="width: 120px;
+            height: 24px;" />
+        </div>
+        <div style="padding: 20px 20px;
+        text-align: center;">
+            <p style="font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #17191C;">You requested to delete the Project below 😥.</p>
+            <p style="font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.01em;
+            color: #464646;">You will be notified when your request has been approved.</p>
+            <div style="width: 100%; text-align: center;">
+                <div>
+                    <img src="<%= project.image %>" alt="Project image" loading="lazy" />
+                </div>
+            </div>
+            <div style="width: 100%; display:grid; place-items: center;">
+                <p style="font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #17191C;
+                text-align: center;">
+                    <%= project.title %>
+                </p>
+            </div>
+            <div style="font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 15px;
+            color: #464646;">
+                <%= project.description %>
+                    </p>
+            </div>
+
+            <div style="width: 100%; display:grid; place-items: center;">
+                <p style="font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #17191C;
+                text-align: center;">
+                    Reason
+                </p>
+            </div>
+            <div style="font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 15px;
+            color: #464646;">
+                <%= project.reason %>
+                    </p>
+            </div>
+            <div style="width: 100%; display:flex; align-items:center; justify-content:center;"></div>
+            <button style="background: #42C3FF;
+                border-radius: 8px;
+                width: 280px;
+                height: 48px;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                padding: 12px 32px;
+                margin-top: 20px;">Cancel Request</button>
+        </div>
+    </div>
+</div>
+</div>
